@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar(){
@@ -45,33 +46,33 @@ export default function Navbar(){
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="index.html">
-                                    <Image className="logo-main" src="/images/logo.webp" alt="" width={150} height={40} />
-                                    <Image className="logo-scroll" src="/images/logo.webp" alt="" width={150} height={40} />
-                                    <Image className="logo-mobile" src="/images/logo.webp" alt="" width={150} height={40} />
+                                    <Image className="logo-main" src="/images/logo.webp" alt="" width={150} height={30} />
+                                    <Image className="logo-scroll" src="/images/logo.webp" alt="" width={150} height={30} />
+                                    <Image className="logo-mobile" src="/images/logo.webp" alt="" width={150} height={30} />
                                     </Link>
                                 </div>
                             </div>
                             <div className="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
                                     <li>
-                                        <Link className="menu-item" href="index.html">
+                                        <Link className="menu-item" href="/">
                                         Home
                                         </Link>
                                         <ul className="mega">
                                             <li>
                                                 <div className="container">
-                                                    <div className="sb-menu p-4">
-                                                        <div className="row g-4">
+                                                    {/* <div className="sb-menu p-4"> */}
+                                                        {/* <div className="row g-4"> */}
                                                             <div className="col-lg-2 col-sm-6 text-center">
-                                                                <div className="relative hover text-center overflow-hidden soft-shadow">
+                                                                {/* <div className="relative hover text-center overflow-hidden soft-shadow">
                                                                     <Link className="p-0" href="homepage-3.html">
-                                                                        <Image src="/images/demo/homepage-3.webp" className="w-100 relative hover-scale-1-1" alt="" width={300} height={200} />
+                                                                        <Image src="/images/demo/homepage-3.webp" className="w-100 relative hover-scale-1-1" alt="" width={100} height={100} />
                                                                     </Link>
-                                                                </div>                            
-                                                                <h6 className="mt-3">Homepage 3</h6>                          
+                                                                </div>                             */}
+                                                                {/* <h6 className="mt-3">Homepage 3</h6>                           */}
                                                             </div>
-                                                            </div>
-                                                    </div>
+                                                            {/* </div> */}
+                                                    {/* </div> */}
                                                 </div>                                                
                                             </li>
                                         </ul>
@@ -86,14 +87,14 @@ export default function Navbar(){
                                     <li><Link className="menu-item" href="brands.html">Brands</Link></li>
                                     <li><Link className="menu-item" href="projects.html">Projects</Link></li>  
                                     <li><Link className="menu-item" href="blog.html">Blog</Link></li>
-                                    <li><a className="menu-item" href="contact.html">Contact</a></li>
+                                    <li><Link className="menu-item" href="contact.html">Contact</Link></li>
                                 </ul>
                             </div>
                             <div className="de-flex-col">
-                                <div className="menu_side_area">          
-                                    <a className="btn-main fx-slide" href="contact.html"><span>Get a Free Quote</span></a>
-                                    <span id="menu-btn"></span>
+                                <div className="menu_side_area" style={{ backgroundSize: "cover", backgroundRepeat: "no-repeat" }}>
                                 </div>
+                                <Link className="btn-main btn-line fx-slide" href="contact.html"><span>Get a Free Quote</span></Link>
+                                <span id="menu-btn"></span>
                                 <div id="btn-extra" className="img">
                                     <Image src="/images/ui/dots.svg" className="" alt="" width={24} height={24}/>
                                 </div>

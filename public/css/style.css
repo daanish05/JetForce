@@ -386,9 +386,9 @@ header.smaller.scroll-light #mainmenu li.has-child:after {
   font-size: 30px;
 }
 
-div#logo img{
+/* div#logo img{
   max-width: 150px;
-}
+} */
 
 header.smaller div#logo .logo-1 {
   display: none;
@@ -3038,7 +3038,7 @@ a.btn-line,
   outline: 0;
   font-weight: bold;
   text-decoration: none;
-  padding: 3px 20px;
+  padding: 8px 20px;
   font-size: 13px;
   border: none;
   border-radius:var(--button-rounded);

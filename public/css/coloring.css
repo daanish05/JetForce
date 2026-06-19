@@ -97,7 +97,7 @@ h1.s2 .c1 span,
 .owl-dot.active,
 body::-webkit-scrollbar-thumb,#de_modal::-webkit-scrollbar-thumb
  {
-    background:var(--primary-color);
+    background: var(--primary-color);
 }
 ::-moz-selection { /* Code for Firefox */
     color:#ffffff;
