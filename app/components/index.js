@@ -1,0 +1,10 @@
+export { default as Header } from "./Header";
+export { default as Footer } from "./Footer";
+export { default as About } from "./About";
+export { default as Specialist } from "./Sepcialist";
+export { default as Choose } from "./Choose";
+export { default as Testimonials } from "./Testimonials";
+export { default as Querys } from "./Querys";
+export { default as StayUpdate } from "./Update";
+export { default as carousel } from "./carousel";
+export { default as ScriptLoader } from "./ScriptLoader";
