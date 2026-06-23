@@ -13,7 +13,7 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <Image src="/images/svg-white/bell.svg" className="" alt="" width={24} height={24}/>
+                                        <img src="/images/svg-white/bell.svg" className="" alt="" />
                                             Get 50% discount for new CCTV installation
                                         </Link>
                                     </div>
@@ -21,13 +21,13 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget me-5">
                                         <Link href="#">
-                                        <Image src="/images/svg-white/phone.svg" className="" alt="" width={24} height={24}/>
+                                        <img src="/images/svg-white/phone.svg" className="" alt="" />
                                         Call us: (123) 202-9296
                                         </Link>
                                     </div>
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <Image src="/images/svg-white/envelope.svg" className="" alt="" width={24} height={24}/>
+                                        <img src="/images/svg-white/envelope.svg" className="" alt="" />
                                         Message us: contact@ucam-cctv.com
                                         </Link>
                                     </div>
