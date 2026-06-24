@@ -45,9 +45,12 @@ const Header = () => {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="/">
-                                    <img className="logo-main" src="/images/logo.webp" alt=""  />
-                                    <img className="logo-scroll" src="/images/logo.webp" alt=""  />
-                                    <img className="logo-mobile" src="/images/logo.webp" alt=""     />
+                                    {/* <img className="logo-main" src="/images/Jetforce-logo.png"alt=""  /> */}    
+                                    <img className="logo-main" src="/images/logo.webp"alt=""  />
+                                    {/* <img className="logo-scroll" src="/images/Jetforce-logo.png"alt=""  /> */}
+                                    <img className="logo-scroll" src="/images/logo.webp"alt=""  />
+                                    {/* <img className="logo-mobile" src="/images/Jetforce-logo.png" alt="" /> */}
+                                    <img className="logo-mobile" src="/images/logo.webp" alt="" />
                                     </Link>
                                 </div>
                             </div>
@@ -96,7 +99,7 @@ const Header = () => {
                                                              </div>
                                                              <div className="col-lg-2 col-sm-6 text-center">
                                                                  <div className="relative hover text-center overflow-hidden soft-shadow">
-                                                                     <Link className="p-0" href="homepage-3.html">
+                                                                     <Link className="p-0" href="/">
                                                                          <Image src="/images/demo/homepage-3.webp" className="w-100 relative hover-scale-1-1" alt="" width={100} height={100} style={{ height: "auto" }} />
                                                                     </Link>
                                                                 </div>

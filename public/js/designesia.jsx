@@ -1385,10 +1385,11 @@
          /* --------------------------------------------------
           * window | on resize
           * --------------------------------------------------*/
-         $(window).resize(function() {
-             init_resize();
+          $(window).resize(function() {
+              init_resize();
 			 grid_gallery();
-         });
+			 lenis.resize();
+          });
 
          /* --------------------------------------------------
           * window | on scroll

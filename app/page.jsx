@@ -46,15 +46,10 @@ export default function Home(){
       {/* Calling Update Section */}
           
           <StayUpdate />
-    {/* Calling Footer section */}
-          
-          <Footer />
-      
-      </div>
-      
-      </div>
-  {/* Javascript Files
-    ================================================== */}
+          </div>
+        </div>
+        
+        <Footer />
 </>
 
     );

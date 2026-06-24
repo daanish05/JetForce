@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
                 <Script src="js/swiper.js" strategy="beforeInteractive" />
                 <ScriptLoader />
                 
-            </body>
+            </body> 
         </html>
     );
 }

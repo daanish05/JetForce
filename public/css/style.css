@@ -47,9 +47,7 @@ Table of content:
 
 /* ================================================== */
 
-
 /* import fonts icon */
-
 
 /* ================================================== */
 
@@ -207,7 +205,7 @@ header.autoshow.scrollOn {
 }
 
 header.autoshow.scrollOff {
-  opacity: ;
+  opacity: 0;
   top: -120px;
 }
 
