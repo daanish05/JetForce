@@ -13,7 +13,7 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <img src="/images/svg-white/bell.svg" className="" alt="" />
+                                        <Image src="/images/svg-white/bell.svg" className="" alt="" />
                                             Get 50% discount for new CCTV installation
                                         </Link>
                                     </div>
@@ -21,13 +21,13 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget me-5">
                                         <Link href="#">
-                                        <img src="/images/svg-white/phone.svg" className="" alt="" />
+                                        <Image  src="/images/svg-white/phone.svg" className="" alt="" />
                                         Call us: (123) 202-9296
                                         </Link>
                                     </div>
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <img src="/images/svg-white/envelope.svg" className="" alt="" />
+                                        <Image src="/images/svg-white/envelope.svg" className="" alt="" />
                                         Message us: contact@ucam-cctv.com
                                         </Link>
                                     </div>
@@ -48,7 +48,7 @@ const Header = () => {
                                     <Image className="logo-main" src="/images/Jetforce-logo.webp"alt=""  />
                                     <Image className="logo-scroll" src="/images/Jetforce-logo.webp"alt=""  />
                                     <Image className="logo-mobile" src="/images/Jetforce-logo.webp" alt="" />
-                                    </Link>
+                                    </Link> 
                                 </div>
                             </div>
                             <div className="de-flex-col header-col-mid">
