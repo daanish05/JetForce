@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
     return(
         <>
-        <header className="transparent">
+        <header className="transparent bg-blur">
             <div id="topbar">
                 <div className="container">
                     <div className="row">
