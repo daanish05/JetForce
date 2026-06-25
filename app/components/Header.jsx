@@ -47,7 +47,7 @@ const Header = () => {
                                     <Link href="/">
                                     <Image className="logo-main" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={180} height={40} />
                                     <Image className="logo-scroll" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={180} height={40} />
-                                    <Image className="logo-mobile" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={120} height={40} />
+                                    <Image className="logo-mobile" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={120} height={30} />
                                     </Link> 
                                 </div>
                             </div>
