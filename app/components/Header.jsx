@@ -13,7 +13,7 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <Image src="/images/svg-white/bell.svg" className="" alt="" />
+                                        <Image src="/images/svg-white/bell.svg" className="" alt="" width={16} height={16} />
                                             Get 50% discount for new CCTV installation
                                         </Link>
                                     </div>
@@ -21,13 +21,13 @@ const Header = () => {
                                 <div className="d-flex">
                                     <div className="topbar-widget me-5">
                                         <Link href="#">
-                                        <Image  src="/images/svg-white/phone.svg" className="" alt="" />
+                                        <Image  src="/images/svg-white/phone.svg" className="" alt="" width={16} height={16} />
                                         Call us: (123) 202-9296
                                         </Link>
                                     </div>
                                     <div className="topbar-widget">
                                         <Link href="#">
-                                        <Image src="/images/svg-white/envelope.svg" className="" alt="" />
+                                        <Image src="/images/svg-white/envelope.svg" className="" alt="" width={16} height={16} />
                                         Message us: contact@ucam-cctv.com
                                         </Link>
                                     </div>
@@ -45,9 +45,9 @@ const Header = () => {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="/">
-                                    <Image className="logo-main" src="/images/Jetforce-Logo.webp"alt="JetForce logo"  />
-                                    <Image className="logo-scroll" src="/images/Jetforce-Logo.webp"alt="JetForce logo"  />
-                                    <Image className="logo-mobile" src="/images/Jetforce-Logo.webp" alt="JetForce logo" />
+                                    <Image className="logo-main" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={180} height={40} />
+                                    <Image className="logo-scroll" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={180} height={40} />
+                                    <Image className="logo-mobile" src="/images/Jetforce-Logo.webp" alt="JetForce logo" width={120} height={40} />
                                     </Link> 
                                 </div>
                             </div>
